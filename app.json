@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "modern-chat-app",
-    "slug": "modern-chat-app",
+    "name": "RNChatApp",
+    "slug": "RNChatApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,18 +10,14 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.betoatexpo.modern-chat-app",
-      "associatedDomains": [
-        "applinks:quiet-bulldog-8.clerk.accounts.dev",
-        "webcredentials:quiet-bulldog-8.clerk.accounts.dev"
-      ]
+      "bundleIdentifier": "com.michaelt.RNChatApp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.betoatexpo.modernchatapp"
+      "package": "com.michaelt.RNChatApp"
     },
     "web": {
       "bundler": "metro",
